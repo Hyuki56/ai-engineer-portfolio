@@ -7,3 +7,6 @@ dist/
 
 tmp/
 .idea/
+
+# Keep the application resume local; do not publish it in the portfolio repository.
+/docs/AI_Engineer_Resume_KR.pdf

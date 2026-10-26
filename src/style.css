@@ -29,7 +29,22 @@
 .contact-list>a{display:flex;flex-direction:column;gap:8px;padding:13px 0;border-bottom:1px solid var(--line);font:8px var(--mono);color:#8e9a9f}
 .contact-list>a b{font:11px sans-serif;color:#e7ecef}
 .contact-list>a:hover b,.repo-link:hover{color:var(--mint)}
+.steps p{margin:9px 12px 0 0;color:#8e9da0;font-size:9px;line-height:1.7}
+.flow{display:flex;flex-direction:column;gap:0;padding:8px 18px}
+.flow>span{display:grid;grid-template-columns:38px minmax(150px,.7fr) minmax(0,1.3fr);align-items:center;gap:12px;padding:12px 5px;border:0;border-bottom:1px solid #29383e;background:transparent}
+.flow>span:last-child{border-bottom:0}
+.flow>span>b{font-size:10px;font-weight:500}
+.flow code{color:#94a1a5;font:9px var(--mono);overflow-wrap:anywhere}
+.pipeline>div{grid-template-columns:38px 1fr}
+.pipeline section{display:flex;flex-direction:column;gap:7px}
+.pipeline section b{font-size:10px;font-weight:500}
+@media(max-width:600px){.flow{padding:8px 11px}.flow>span{grid-template-columns:27px 1fr;gap:7px;padding:11px 2px}.flow>span>b{font-size:9px}.flow code{grid-column:2;font-size:8px}.pipeline>div{grid-template-columns:28px 1fr;gap:7px}}
 .repo-link{display:inline-block;margin-top:10px;color:var(--accent);font:11px var(--mono);word-break:break-all}
 
 .rag-gallery{display:grid;grid-template-columns:1fr;gap:15px;margin-top:20px}.rag-screen{margin:0;padding:10px;background:#f2f4f6;border:1px solid #344249}.rag-screen img{display:block;width:100%;height:auto;max-height:none;object-fit:contain;background:#f2f4f6}.rag-screen figcaption{padding:10px 4px 2px;color:#9ba8ac;font-size:9px;line-height:1.7}
+.limit-item{border-top:1px solid #2d3a40;padding:12px 0}
+.limit-item>b{font-size:10px;font-weight:500;color:#e0e7e8}
+.limit-item>b small{color:var(--accent);font:8px var(--mono)}
+.limits .limit-item>p{border:0;padding:7px 0 0;margin:0;color:#a4b0b3;font-size:9px;line-height:1.8}
+.stack-label{display:block;margin-top:22px;color:var(--accent)!important;font:9px var(--mono)!important;letter-spacing:.08em}
 

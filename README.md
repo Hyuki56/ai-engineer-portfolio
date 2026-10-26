@@ -5,7 +5,7 @@ AI Engineer / AI Developer 취업 지원을 위한 반응형 웹 포트폴리오
 ## 공개 링크
 
 - 웹 포트폴리오: https://hyuki56.github.io/ai-engineer-portfolio/
-- PDF 포트폴리오: https://hyuki56.github.io/ai-engineer-portfolio/AI_Engineer_Portfolio_KR.pdf
+- 상세 프로젝트 PDF (보조 자료): https://hyuki56.github.io/ai-engineer-portfolio/AI_Engineer_Portfolio_KR.pdf
 - GitHub 프로필: https://github.com/Hyuki56
 - PJ1 - Codebase AI Assistant: https://github.com/Hyuki56/codebase-ai-assistant
 - PJ2 - AI Smart Surveillance Platform: https://github.com/Hyuki56/AI-Smart-Surveillance-Platform
@@ -15,6 +15,13 @@ AI Engineer / AI Developer 취업 지원을 위한 반응형 웹 포트폴리오
 - React, TypeScript, Vite
 - GitHub Actions를 통한 GitHub Pages 배포
 - 별도 백엔드나 유료 AI API 없이 배포되는 정적 웹사이트
+
+## 지원 자료 구성
+
+- 기본 제출 자료는 핵심 역량과 프로젝트 요약을 담은 별도 이력서 PDF입니다.
+- 웹 포트폴리오 URL을 통해 프로젝트 상세 설명과 실행 근거를 확인할 수 있습니다.
+- 상세 프로젝트 PDF는 문서 형태의 자료가 필요한 경우를 위한 보조 자료입니다.
+- 지원용 이력서 PDF는 개인 정보가 포함될 수 있어 이 공개 저장소에 포함하지 않습니다.
 
 ## 로컬 실행
 
@@ -37,7 +44,7 @@ AI Engineer / AI Developer 취업 지원을 위한 반응형 웹 포트폴리오
 - `src/App.tsx`: 메인 페이지와 PJ1·PJ2 상세 페이지
 - `src/style.css`: 반응형 레이아웃과 시각 스타일
 - `public/images/`: 프로젝트 화면 및 실행 증거 이미지
-- `docs/AI_Engineer_Portfolio_KR.pdf`: 입사 지원용 5페이지 PDF 원본
+- `docs/AI_Engineer_Portfolio_KR.pdf`: 4페이지 상세 프로젝트 PDF 원본
 - `public/AI_Engineer_Portfolio_KR.pdf`: 웹에서 제공하는 PDF 사본
 - `.github/workflows/deploy.yml`: `main` 브랜치 변경 시 빌드·배포
 
